@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.nadanewsoft.lamasat_new"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "29.0.13113456"
+    ndkVersion = "28.0.12433566"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
