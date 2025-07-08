@@ -1,4 +1,4 @@
-package com.nadanewsoft.lamasat_new
+package com.nadanewsoft.lamasat_dorrah
 
 import io.flutter.embedding.android.FlutterActivity
 
