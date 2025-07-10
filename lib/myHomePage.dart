@@ -8,8 +8,8 @@ import 'privacy_text.dart';
 import 'videoList.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
+  const MyHomePage({Key? key}) : super(key: key);
+
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
@@ -18,7 +18,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   String url = 'https://www.youtube.com/playlist?list=PLo_bzJr12Ms5Ikr5mRUZHfey4Jg-HsOcv';
-  String Privacyurl='https://www.freeprivacypolicy.com/live/5bc098fb-a590-462b-8df3-d0d0e7c60597';
+  String Privacyurl='https://www.freeprivacypolicy.com/live/e111c567-256c-4657-bf66-4ccfc08c2105';
   late Uri myUri=Uri.parse(url);
   late Uri myPrivacyUri=Uri.parse(Privacyurl);
   int _counter = 1;
